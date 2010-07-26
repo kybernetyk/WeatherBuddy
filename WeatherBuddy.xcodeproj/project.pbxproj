@@ -13,6 +13,7 @@
 		031EF18911FAE91000CBE73D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031EF18711FAE91000CBE73D /* MainMenu.xib */; };
 		031EF18C11FAE91000CBE73D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 031EF18A11FAE91000CBE73D /* Credits.rtf */; };
 		031EF18F11FAE91100CBE73D /* WeatherBuddyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EF18E11FAE91100CBE73D /* WeatherBuddyAppDelegate.m */; };
+		0352709F11FDAD9D0047319E /* thermodino.c in Sources */ = {isa = PBXBuildFile; fileRef = 0352709E11FDAD9D0047319E /* thermodino.c */; };
 		0360A9CD11FB5AC5004FF7E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0360A9CC11FB5AC5004FF7E6 /* CoreLocation.framework */; };
 		039B646F11FCCA0200CFC4F6 /* WeatherBuddy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 039B646E11FCCA0200CFC4F6 /* WeatherBuddy.icns */; };
 		03DCC99511FC4DC9004A0005 /* DDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCC99411FC4DC9004A0005 /* DDImageCache.m */; };
@@ -41,6 +42,8 @@
 		031EF18B11FAE91000CBE73D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		031EF18D11FAE91100CBE73D /* WeatherBuddyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherBuddyAppDelegate.h; sourceTree = "<group>"; };
 		031EF18E11FAE91100CBE73D /* WeatherBuddyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherBuddyAppDelegate.m; sourceTree = "<group>"; };
+		0352709D11FDAD9D0047319E /* thermodino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thermodino.h; sourceTree = "<group>"; };
+		0352709E11FDAD9D0047319E /* thermodino.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thermodino.c; sourceTree = "<group>"; };
 		0360A9CC11FB5AC5004FF7E6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		039B646E11FCCA0200CFC4F6 /* WeatherBuddy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = WeatherBuddy.icns; sourceTree = "<group>"; };
 		03DCC99311FC4DC9004A0005 /* DDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDImageCache.h; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				03DCC99C11FC5B33004A0005 /* ASIHttpRequest */,
 				031EF18111FAE90E00CBE73D /* WeatherBuddy_Prefix.pch */,
 				031EF18511FAE90E00CBE73D /* main.m */,
+				0352709D11FDAD9D0047319E /* thermodino.h */,
+				0352709E11FDAD9D0047319E /* thermodino.c */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -259,6 +264,7 @@
 				03DCC9B511FC693E004A0005 /* DDLocationWrapper.m in Sources */,
 				03DCC9C511FC70D4004A0005 /* DDImageManipulation.m in Sources */,
 				03F14E8411FCDFB0001FA07B /* PFMoveApplication.m in Sources */,
+				0352709F11FDAD9D0047319E /* thermodino.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

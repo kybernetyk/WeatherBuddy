@@ -7,9 +7,18 @@
 //
 
 
+#define USE_ARDUINO 88
+#define ARDUINO_SERIAL_PORT "/dev/cu.usbserial-A600add9"
+
 #import "WeatherBuddyAppDelegate.h"
 #import "ASIHTTPRequest.h"
 #import "PFMoveApplication.h"
+
+#ifdef USE_ARDUINO
+	#include "thermodino.h"
+#endif
+
+
 
 @implementation WeatherBuddyAppDelegate
 
@@ -17,9 +26,15 @@
 @synthesize countryCode, locationWrapper, timer, googleMaps, statusMenu, locationMenu, updateMenu;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+
+    
+	//test arduino
+	//NSLog(@"arduino temp: %.2f",get_temp("/dev/cu.usbserial-A600add9"));
     
 	PFMoveToApplicationsFolderIfNecessary();
-    
+
+
+	
     // Insert code here to initialize your application
     bar = [NSStatusBar systemStatusBar];
     item = [[bar statusItemWithLength:NSVariableStatusItemLength] retain];
@@ -52,7 +67,7 @@
 
 - (void)atLocation:(CLLocation *)location {
     // schedule next update
-    timer = [[NSTimer scheduledTimerWithTimeInterval:600.0 target:self selector:@selector(startUpdate:) userInfo:nil repeats:NO] retain];
+    timer = [[NSTimer scheduledTimerWithTimeInterval:600.0f target:self selector:@selector(startUpdate:) userInfo:nil repeats:NO] retain];
 
     // work some magic    
     NSString *gpsLocation = [NSString stringWithFormat:@"%f,%f", location.coordinate.latitude, location.coordinate.longitude];
@@ -114,6 +129,11 @@
     
     [ic setImageForObject:item withURL:image];
     
+	//LOOOOOOOOL OVERRIDE!
+#ifdef USE_ARDUINO
+	temperature = [NSString stringWithFormat:@"%.2f", td_get_temp(ARDUINO_SERIAL_PORT)];
+#endif
+
     [item setTitle:temperature];
     
     [request release];

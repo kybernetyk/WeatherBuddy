@@ -1,0 +1,191 @@
+// !$*UTF8*$!
+{
+	031EF16E11FAE90900CBE73D /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0352708711FDAD2B0047319E /* WeatherBuddy */;
+		activeTarget = 031EF17A11FAE90C00CBE73D /* WeatherBuddy */;
+		addToTargets = (
+			031EF17A11FAE90C00CBE73D /* WeatherBuddy */,
+		);
+		breakpoints = (
+			035270EC11FDB2CF0047319E /* thermodino.c:62 */,
+		);
+		codeSenseManager = 0352709B11FDAD2D0047319E /* Code sense */;
+		executables = (
+			0352708711FDAD2B0047319E /* WeatherBuddy */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					834,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 301837611;
+			PBXWorkspaceStateSaveDate = 301837611;
+		};
+		perUserProjectItems = {
+			035270A411FDAED80047319E /* PBXTextBookmark */ = 035270A411FDAED80047319E /* PBXTextBookmark */;
+			0352715A11FDB8170047319E /* PBXTextBookmark */ = 0352715A11FDB8170047319E /* PBXTextBookmark */;
+			0352715B11FDB8170047319E /* PBXTextBookmark */ = 0352715B11FDB8170047319E /* PBXTextBookmark */;
+			0352715C11FDB8170047319E /* PBXTextBookmark */ = 0352715C11FDB8170047319E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0352709A11FDAD2D0047319E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	031EF17A11FAE90C00CBE73D /* WeatherBuddy */ = {
+		activeExec = 0;
+		executables = (
+			0352708711FDAD2B0047319E /* WeatherBuddy */,
+		);
+	};
+	031EF18511FAE90E00CBE73D /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 489}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 261}";
+		};
+	};
+	031EF18E11FAE91100CBE73D /* WeatherBuddyAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2674}}";
+			sepNavSelRange = "{1799, 0}";
+			sepNavVisRange = "{1564, 544}";
+		};
+	};
+	0352708711FDAD2B0047319E /* WeatherBuddy */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = WeatherBuddy;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	0352709A11FDAD2D0047319E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0352709B11FDAD2D0047319E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0352709D11FDAD9D0047319E /* thermodino.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 466}}";
+			sepNavSelRange = "{140, 0}";
+			sepNavVisRange = "{0, 176}";
+		};
+	};
+	0352709E11FDAD9D0047319E /* thermodino.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 910}}";
+			sepNavSelRange = "{739, 0}";
+			sepNavVisRange = "{71, 599}";
+		};
+	};
+	035270A411FDAED80047319E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 031EF18511FAE90E00CBE73D /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 261;
+		vrLoc = 0;
+	};
+	035270EC11FDB2CF0047319E /* thermodino.c:62 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0352709E11FDAD9D0047319E /* thermodino.c */;
+		functionName = "get_temp()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 62;
+		location = WeatherBuddy;
+		modificationTime = 301839445.401549;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0352715A11FDB8170047319E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 031EF18E11FAE91100CBE73D /* WeatherBuddyAppDelegate.m */;
+		name = "WeatherBuddyAppDelegate.m: 70";
+		rLen = 0;
+		rLoc = 1799;
+		rType = 0;
+		vrLen = 1025;
+		vrLoc = 640;
+	};
+	0352715B11FDB8170047319E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0352709E11FDAD9D0047319E /* thermodino.c */;
+		name = "thermodino.c: 46";
+		rLen = 0;
+		rLoc = 739;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 0;
+	};
+	0352715C11FDB8170047319E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0352709E11FDAD9D0047319E /* thermodino.c */;
+		name = "thermodino.c: 46";
+		rLen = 0;
+		rLoc = 739;
+		rType = 0;
+		vrLen = 599;
+		vrLoc = 71;
+	};
+}
