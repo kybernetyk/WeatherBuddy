@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031EF17F11FAE90D00CBE73D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031EF17E11FAE90D00CBE73D /* Cocoa.framework */; };
+		031EF18411FAE90E00CBE73D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 031EF18211FAE90E00CBE73D /* InfoPlist.strings */; };
+		031EF18611FAE90E00CBE73D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EF18511FAE90E00CBE73D /* main.m */; };
+		031EF18911FAE91000CBE73D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031EF18711FAE91000CBE73D /* MainMenu.xib */; };
+		031EF18C11FAE91000CBE73D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 031EF18A11FAE91000CBE73D /* Credits.rtf */; };
+		031EF18F11FAE91100CBE73D /* WeatherBuddyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 031EF18E11FAE91100CBE73D /* WeatherBuddyAppDelegate.m */; };
+		0360A9CD11FB5AC5004FF7E6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0360A9CC11FB5AC5004FF7E6 /* CoreLocation.framework */; };
+		039B646F11FCCA0200CFC4F6 /* WeatherBuddy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 039B646E11FCCA0200CFC4F6 /* WeatherBuddy.icns */; };
+		03DCC99511FC4DC9004A0005 /* DDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCC99411FC4DC9004A0005 /* DDImageCache.m */; };
+		03DCC9AE11FC5B4F004A0005 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCC9A111FC5B4F004A0005 /* ASIDownloadCache.m */; };
+		03DCC9AF11FC5B4F004A0005 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCC9A311FC5B4F004A0005 /* ASIFormDataRequest.m */; };
+		03DCC9B011FC5B4F004A0005 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCC9A511FC5B4F004A0005 /* ASIHTTPRequest.m */; };
+		03DCC9B111FC5B4F004A0005 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCC9A911FC5B4F004A0005 /* ASIInputStream.m */; };
+		03DCC9B211FC5B4F004A0005 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCC9AB11FC5B4F004A0005 /* ASINetworkQueue.m */; };
+		03DCC9B511FC693E004A0005 /* DDLocationWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCC9B411FC693E004A0005 /* DDLocationWrapper.m */; };
+		03DCC9B711FC69A0004A0005 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DCC9B611FC69A0004A0005 /* SystemConfiguration.framework */; };
+		03DCC9B911FC69C6004A0005 /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DCC9B811FC69C6004A0005 /* libz.1.2.3.dylib */; };
+		03DCC9BB11FC69DB004A0005 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DCC9BA11FC69DB004A0005 /* CoreServices.framework */; };
+		03DCC9C511FC70D4004A0005 /* DDImageManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DCC9C411FC70D4004A0005 /* DDImageManipulation.m */; };
+		03F14E8411FCDFB0001FA07B /* PFMoveApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F14E8311FCDFB0001FA07B /* PFMoveApplication.m */; };
+		03F14E8711FCE019001FA07B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F14E8611FCE019001FA07B /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		031EF17B11FAE90C00CBE73D /* WeatherBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031EF17E11FAE90D00CBE73D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		031EF18011FAE90D00CBE73D /* WeatherBuddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherBuddy-Info.plist"; sourceTree = "<group>"; };
+		031EF18111FAE90E00CBE73D /* WeatherBuddy_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherBuddy_Prefix.pch; sourceTree = "<group>"; };
+		031EF18311FAE90E00CBE73D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		031EF18511FAE90E00CBE73D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		031EF18811FAE91000CBE73D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		031EF18B11FAE91000CBE73D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		031EF18D11FAE91100CBE73D /* WeatherBuddyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherBuddyAppDelegate.h; sourceTree = "<group>"; };
+		031EF18E11FAE91100CBE73D /* WeatherBuddyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherBuddyAppDelegate.m; sourceTree = "<group>"; };
+		0360A9CC11FB5AC5004FF7E6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		039B646E11FCCA0200CFC4F6 /* WeatherBuddy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = WeatherBuddy.icns; sourceTree = "<group>"; };
+		03DCC99311FC4DC9004A0005 /* DDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDImageCache.h; sourceTree = "<group>"; };
+		03DCC99411FC4DC9004A0005 /* DDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDImageCache.m; sourceTree = "<group>"; };
+		03DCC99F11FC5B4F004A0005 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		03DCC9A011FC5B4F004A0005 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		03DCC9A111FC5B4F004A0005 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		03DCC9A211FC5B4F004A0005 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		03DCC9A311FC5B4F004A0005 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		03DCC9A411FC5B4F004A0005 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		03DCC9A511FC5B4F004A0005 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		03DCC9A611FC5B4F004A0005 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		03DCC9A711FC5B4F004A0005 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		03DCC9A811FC5B4F004A0005 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		03DCC9A911FC5B4F004A0005 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		03DCC9AA11FC5B4F004A0005 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		03DCC9AB11FC5B4F004A0005 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		03DCC9AC11FC5B4F004A0005 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		03DCC9B311FC693E004A0005 /* DDLocationWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLocationWrapper.h; sourceTree = "<group>"; };
+		03DCC9B411FC693E004A0005 /* DDLocationWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLocationWrapper.m; sourceTree = "<group>"; };
+		03DCC9B611FC69A0004A0005 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Xcode4/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		03DCC9B811FC69C6004A0005 /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = Xcode4/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		03DCC9BA11FC69DB004A0005 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Xcode4/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		03DCC9C311FC70D4004A0005 /* DDImageManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDImageManipulation.h; sourceTree = "<group>"; };
+		03DCC9C411FC70D4004A0005 /* DDImageManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDImageManipulation.m; sourceTree = "<group>"; };
+		03F14E8211FCDFB0001FA07B /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMoveApplication.h; sourceTree = "<group>"; };
+		03F14E8311FCDFB0001FA07B /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMoveApplication.m; sourceTree = "<group>"; };
+		03F14E8611FCE019001FA07B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Xcode4/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031EF17811FAE90C00CBE73D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031EF17F11FAE90D00CBE73D /* Cocoa.framework in Frameworks */,
+				0360A9CD11FB5AC5004FF7E6 /* CoreLocation.framework in Frameworks */,
+				03DCC9B711FC69A0004A0005 /* SystemConfiguration.framework in Frameworks */,
+				03DCC9B911FC69C6004A0005 /* libz.1.2.3.dylib in Frameworks */,
+				03DCC9BB11FC69DB004A0005 /* CoreServices.framework in Frameworks */,
+				03F14E8711FCE019001FA07B /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031EF16C11FAE90900CBE73D = {
+			isa = PBXGroup;
+			children = (
+				031EF17311FAE90B00CBE73D /* Classes */,
+				031EF17411FAE90C00CBE73D /* Other Sources */,
+				031EF17511FAE90C00CBE73D /* Resources */,
+				031EF17611FAE90C00CBE73D /* Frameworks */,
+				031EF17C11FAE90C00CBE73D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031EF17311FAE90B00CBE73D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03DCC9B311FC693E004A0005 /* DDLocationWrapper.h */,
+				03DCC9B411FC693E004A0005 /* DDLocationWrapper.m */,
+				031EF18D11FAE91100CBE73D /* WeatherBuddyAppDelegate.h */,
+				031EF18E11FAE91100CBE73D /* WeatherBuddyAppDelegate.m */,
+				03DCC99311FC4DC9004A0005 /* DDImageCache.h */,
+				03DCC99411FC4DC9004A0005 /* DDImageCache.m */,
+				03DCC9C311FC70D4004A0005 /* DDImageManipulation.h */,
+				03DCC9C411FC70D4004A0005 /* DDImageManipulation.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		031EF17411FAE90C00CBE73D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				03F14E8111FCDF78001FA07B /* LetsMove */,
+				03DCC99C11FC5B33004A0005 /* ASIHttpRequest */,
+				031EF18111FAE90E00CBE73D /* WeatherBuddy_Prefix.pch */,
+				031EF18511FAE90E00CBE73D /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		031EF17511FAE90C00CBE73D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				039B646E11FCCA0200CFC4F6 /* WeatherBuddy.icns */,
+				031EF18011FAE90D00CBE73D /* WeatherBuddy-Info.plist */,
+				031EF18211FAE90E00CBE73D /* InfoPlist.strings */,
+				031EF18711FAE91000CBE73D /* MainMenu.xib */,
+				031EF18A11FAE91000CBE73D /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		031EF17611FAE90C00CBE73D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03DCC9BA11FC69DB004A0005 /* CoreServices.framework */,
+				03DCC9B811FC69C6004A0005 /* libz.1.2.3.dylib */,
+				03F14E8611FCE019001FA07B /* Security.framework */,
+				03DCC9B611FC69A0004A0005 /* SystemConfiguration.framework */,
+				0360A9CC11FB5AC5004FF7E6 /* CoreLocation.framework */,
+				031EF17E11FAE90D00CBE73D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		031EF17C11FAE90C00CBE73D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031EF17B11FAE90C00CBE73D /* WeatherBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03DCC99C11FC5B33004A0005 /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				03DCC99F11FC5B4F004A0005 /* ASICacheDelegate.h */,
+				03DCC9A011FC5B4F004A0005 /* ASIDownloadCache.h */,
+				03DCC9A111FC5B4F004A0005 /* ASIDownloadCache.m */,
+				03DCC9A211FC5B4F004A0005 /* ASIFormDataRequest.h */,
+				03DCC9A311FC5B4F004A0005 /* ASIFormDataRequest.m */,
+				03DCC9A411FC5B4F004A0005 /* ASIHTTPRequest.h */,
+				03DCC9A511FC5B4F004A0005 /* ASIHTTPRequest.m */,
+				03DCC9A611FC5B4F004A0005 /* ASIHTTPRequestConfig.h */,
+				03DCC9A711FC5B4F004A0005 /* ASIHTTPRequestDelegate.h */,
+				03DCC9A811FC5B4F004A0005 /* ASIInputStream.h */,
+				03DCC9A911FC5B4F004A0005 /* ASIInputStream.m */,
+				03DCC9AA11FC5B4F004A0005 /* ASINetworkQueue.h */,
+				03DCC9AB11FC5B4F004A0005 /* ASINetworkQueue.m */,
+				03DCC9AC11FC5B4F004A0005 /* ASIProgressDelegate.h */,
+			);
+			name = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+		03F14E8111FCDF78001FA07B /* LetsMove */ = {
+			isa = PBXGroup;
+			children = (
+				03F14E8211FCDFB0001FA07B /* PFMoveApplication.h */,
+				03F14E8311FCDFB0001FA07B /* PFMoveApplication.m */,
+			);
+			name = LetsMove;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031EF17A11FAE90C00CBE73D /* WeatherBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031EF19211FAE91100CBE73D /* Build configuration list for PBXNativeTarget "WeatherBuddy" */;
+			buildPhases = (
+				031EF17711FAE90C00CBE73D /* Sources */,
+				031EF17811FAE90C00CBE73D /* Frameworks */,
+				031EF17911FAE90C00CBE73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherBuddy;
+			productName = WeatherBuddy;
+			productReference = 031EF17B11FAE90C00CBE73D /* WeatherBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031EF16E11FAE90900CBE73D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 031EF17111FAE90900CBE73D /* Build configuration list for PBXProject "WeatherBuddy" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 031EF16C11FAE90900CBE73D;
+			productRefGroup = 031EF17C11FAE90C00CBE73D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031EF17A11FAE90C00CBE73D /* WeatherBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		031EF17911FAE90C00CBE73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031EF18411FAE90E00CBE73D /* InfoPlist.strings in Resources */,
+				031EF18911FAE91000CBE73D /* MainMenu.xib in Resources */,
+				031EF18C11FAE91000CBE73D /* Credits.rtf in Resources */,
+				039B646F11FCCA0200CFC4F6 /* WeatherBuddy.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031EF17711FAE90C00CBE73D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031EF18611FAE90E00CBE73D /* main.m in Sources */,
+				031EF18F11FAE91100CBE73D /* WeatherBuddyAppDelegate.m in Sources */,
+				03DCC99511FC4DC9004A0005 /* DDImageCache.m in Sources */,
+				03DCC9AE11FC5B4F004A0005 /* ASIDownloadCache.m in Sources */,
+				03DCC9AF11FC5B4F004A0005 /* ASIFormDataRequest.m in Sources */,
+				03DCC9B011FC5B4F004A0005 /* ASIHTTPRequest.m in Sources */,
+				03DCC9B111FC5B4F004A0005 /* ASIInputStream.m in Sources */,
+				03DCC9B211FC5B4F004A0005 /* ASINetworkQueue.m in Sources */,
+				03DCC9B511FC693E004A0005 /* DDLocationWrapper.m in Sources */,
+				03DCC9C511FC70D4004A0005 /* DDImageManipulation.m in Sources */,
+				03F14E8411FCDFB0001FA07B /* PFMoveApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		031EF18211FAE90E00CBE73D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031EF18311FAE90E00CBE73D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		031EF18711FAE91000CBE73D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031EF18811FAE91000CBE73D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		031EF18A11FAE91000CBE73D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031EF18B11FAE91000CBE73D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031EF19011FAE91100CBE73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		031EF19111FAE91100CBE73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		031EF19311FAE91100CBE73D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WeatherBuddy_Prefix.pch;
+				INFOPLIST_FILE = "WeatherBuddy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = WeatherBuddy;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		031EF19411FAE91100CBE73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WeatherBuddy_Prefix.pch;
+				INFOPLIST_FILE = "WeatherBuddy-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = WeatherBuddy;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031EF17111FAE90900CBE73D /* Build configuration list for PBXProject "WeatherBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031EF19011FAE91100CBE73D /* Debug */,
+				031EF19111FAE91100CBE73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031EF19211FAE91100CBE73D /* Build configuration list for PBXNativeTarget "WeatherBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031EF19311FAE91100CBE73D /* Debug */,
+				031EF19411FAE91100CBE73D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031EF16E11FAE90900CBE73D /* Project object */;
+}

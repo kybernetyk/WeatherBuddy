@@ -1,0 +1,631 @@
+TWeatherBuddy
+v7
+r0
+t301783239.352370
+cCheck dependencies
+cProcessInfoPlistFile /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Info.plist WeatherBuddy-Info.plist
+cProcessPCH /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch.pth WeatherBuddy_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/main.o /Users/da/Code/WeatherBuddy/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/WeatherBuddyAppDelegate.o /Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDImageCache.o /Users/da/Code/WeatherBuddy/Classes/DDImageCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIDownloadCache.o /Users/da/Code/WeatherBuddy/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIFormDataRequest.o /Users/da/Code/WeatherBuddy/ASIFormDataRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIHTTPRequest.o /Users/da/Code/WeatherBuddy/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIInputStream.o /Users/da/Code/WeatherBuddy/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASINetworkQueue.o /Users/da/Code/WeatherBuddy/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDLocationWrapper.o /Users/da/Code/WeatherBuddy/Classes/DDLocationWrapper.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDImageManipulation.o /Users/da/Code/WeatherBuddy/Classes/DDImageManipulation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/MacOS/WeatherBuddy normal x86_64
+cCopyStringsFile /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+cCompileXIB /Users/da/Code/WeatherBuddy/en.lproj/MainMenu.xib
+cCpResource build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj/Credits.rtf en.lproj/Credits.rtf
+cCpResource build/Debug/WeatherBuddy.app/Contents/Resources/WeatherBuddy.icns WeatherBuddy.icns
+cTouch /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004BF4700F0000000000003430
+t1274310671
+s13360
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004B48A9970000000000000161
+t1263053207
+s353
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B90FBB700000000000013E6
+t1267792823
+s5094
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.h
+c000000004B90CFF900000000000009CB
+t1267781625
+s2507
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004B90D6870000000000001A78
+t1267783303
+s6776
+
+N/Developer/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/Xcode4/SDKs/MacOSX10.6.sdk/usr/lib/libz.1.2.3.dylib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/CommonCrypto/CommonHMAC.h
+c000000004AC59A040000000000000DE2
+t1254464004
+s3554
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/zlib.h
+c000000004B90C3A100000000000102A5
+t1267778465
+s66213
+
+N/Users/da/Code/WeatherBuddy/ASICacheDelegate.h
+c000000004C48360D000000000000085E
+t1279800845
+s2142
+i<Foundation/Foundation.h>
+
+N/Users/da/Code/WeatherBuddy/ASIDownloadCache.h
+c000000004C48360D0000000000000804
+t1279800845
+s2052
+i<Foundation/Foundation.h>
+i"ASICacheDelegate.h"
+
+N/Users/da/Code/WeatherBuddy/ASIDownloadCache.m
+c000000004C48360D0000000000003557
+t1279800845
+s13655
+i"ASIDownloadCache.h"
+i"ASIHTTPRequest.h"
+i<CommonCrypto/CommonHMAC.h>
+
+N/Users/da/Code/WeatherBuddy/ASIFormDataRequest.h
+c000000004C48360D0000000000000A6D
+t1279800845
+s2669
+i<Foundation/Foundation.h>
+i"ASIHTTPRequest.h"
+i"ASIHTTPRequestConfig.h"
+
+N/Users/da/Code/WeatherBuddy/ASIFormDataRequest.m
+c000000004C48360D0000000000002B52
+t1279800845
+s11090
+i"ASIFormDataRequest.h"
+
+N/Users/da/Code/WeatherBuddy/ASIHTTPRequest.h
+c000000004C48360D0000000000009121
+t1279800845
+s37153
+i<Foundation/Foundation.h>
+i<CFNetwork/CFNetwork.h>
+i<stdio.h>
+i"ASIHTTPRequestConfig.h"
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+i"ASICacheDelegate.h"
+
+N/Users/da/Code/WeatherBuddy/ASIHTTPRequest.m
+c000000004C48360D00000000000253CB
+t1279800845
+s152523
+i"ASIHTTPRequest.h"
+i<zlib.h>
+i"Reachability.h"
+i"ASIAuthenticationDialog.h"
+i<MobileCoreServices/MobileCoreServices.h>
+i<SystemConfiguration/SystemConfiguration.h>
+i"ASIInputStream.h"
+
+N/Users/da/Code/WeatherBuddy/ASIHTTPRequestConfig.h
+c000000004C48360D00000000000003B0
+t1279800845
+s944
+
+N/Users/da/Code/WeatherBuddy/ASIHTTPRequestDelegate.h
+c000000004C48360D0000000000000599
+t1279800845
+s1433
+
+N/Users/da/Code/WeatherBuddy/ASIInputStream.h
+c000000004C48360D00000000000003C9
+t1279800845
+s969
+i<Foundation/Foundation.h>
+
+N/Users/da/Code/WeatherBuddy/ASIInputStream.m
+c000000004C48360D0000000000000BF0
+t1279800845
+s3056
+i"ASIInputStream.h"
+i"ASIHTTPRequest.h"
+
+N/Users/da/Code/WeatherBuddy/ASINetworkQueue.h
+c000000004C48360D000000000000109B
+t1279800845
+s4251
+i<Foundation/Foundation.h>
+i"ASIHTTPRequestDelegate.h"
+i"ASIProgressDelegate.h"
+
+N/Users/da/Code/WeatherBuddy/ASINetworkQueue.m
+c000000004C48360D00000000000027CE
+t1279800845
+s10190
+i"ASINetworkQueue.h"
+i"ASIHTTPRequest.h"
+
+N/Users/da/Code/WeatherBuddy/ASIProgressDelegate.h
+c000000004C48360D0000000000000678
+t1279800845
+s1656
+
+N/Users/da/Code/WeatherBuddy/Classes/DDImageCache.h
+c000000004C4C483100000000000001D8
+t1280067633
+s472
+i<Cocoa/Cocoa.h>
+i"ASIHTTPRequest.h"
+
+N/Users/da/Code/WeatherBuddy/Classes/DDImageCache.m
+c000000004C4C8F200000000000000EC4
+t1280085792
+s3780
+i"DDImageCache.h"
+i"DDImageManipulation.h"
+
+N/Users/da/Code/WeatherBuddy/Classes/DDImageManipulation.h
+c000000004C4C54760000000000000167
+t1280070774
+s359
+i<Cocoa/Cocoa.h>
+
+N/Users/da/Code/WeatherBuddy/Classes/DDImageManipulation.m
+c000000004C4D237900000000000013EB
+t1280123769
+s5099
+i"DDImageManipulation.h"
+
+N/Users/da/Code/WeatherBuddy/Classes/DDLocationWrapper.h
+c000000004C4C79E500000000000004B5
+t1280080357
+s1205
+i<Cocoa/Cocoa.h>
+i<CoreLocation/CoreLocation.h>
+
+N/Users/da/Code/WeatherBuddy/Classes/DDLocationWrapper.m
+c000000004C4D2467000000000000071E
+t1280124007
+s1822
+i"DDLocationWrapper.h"
+
+N/Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.h
+c000000004C4CA3E200000000000005B2
+t1280091106
+s1458
+i"DDLocationWrapper.h"
+i"DDImageCache.h"
+
+N/Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.m
+c000000004C4D25330000000000001595
+t1280124211
+s5525
+i"WeatherBuddyAppDelegate.h"
+i"ASIHTTPRequest.h"
+i"PFMoveApplication.h"
+
+N/Users/da/Code/WeatherBuddy/PFMoveApplication.h
+c000000004C4CA7440000000000000108
+t1280091972
+s264
+i<Foundation/Foundation.h>
+
+N/Users/da/Code/WeatherBuddy/PFMoveApplication.m
+c000000004C4CA7440000000000003D52
+t1280091972
+s15698
+i"PFMoveApplication.h"
+i<Security/Security.h>
+
+N/Users/da/Code/WeatherBuddy/WeatherBuddy.icns
+c000000004C4C9222000000000001C6D0
+t1280086562
+s116432
+
+N/Users/da/Code/WeatherBuddy/WeatherBuddy.png
+c000000004C4C1FFE0000000000006549
+t1280057342
+s25929
+
+N/Users/da/Code/WeatherBuddy/WeatherBuddy_Prefix.pch
+c000000004C4AB18D000000000000009C
+t1279963533
+s156
+i<Cocoa/Cocoa.h>
+
+N/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app
+t1280090439
+s102
+
+N/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Info.plist
+t1280089851
+s1220
+
+N/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/MacOS/WeatherBuddy
+t1280090439
+s380920
+
+N/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/PkgInfo
+t1280089851
+s8
+
+N/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/WeatherBuddy.icns
+t1280089852
+s116432
+
+N/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/WeatherBuddy.png
+t1280084247
+s25929
+
+N/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj/Credits.rtf
+t1280084247
+s436
+
+N/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1280084247
+s192
+
+N/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj/MainMenu.nib
+t1280090386
+s2875
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIDownloadCache.o
+t1280084246
+s62408
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIFormDataRequest.o
+t1280084246
+s52832
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIHTTPRequest.o
+t1280084246
+s503680
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIInputStream.o
+t1280084246
+s28904
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASINetworkQueue.o
+t1280084246
+s72684
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDImageCache.o
+t1280089851
+s25248
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDImageManipulation.o
+t1280085195
+s20052
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDLocationWrapper.o
+t1280089851
+s24388
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/PFMoveApplication.o
+t2
+s0
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/WeatherBuddy.LinkFileList
+c000000004C4C8914000000000000049E
+t1280084244
+s1182
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/WeatherBuddyAppDelegate.o
+t1280090439
+s52252
+
+N/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/main.o
+t1280084245
+s2384
+
+N/Users/da/Code/WeatherBuddy/en.lproj/Credits.rtf
+c000000004C4AB19000000000000001B4
+t1279963536
+s436
+
+N/Users/da/Code/WeatherBuddy/en.lproj/InfoPlist.strings
+c000000004C4C807E0000000000000060
+t1280082046
+s96
+
+N/Users/da/Code/WeatherBuddy/en.lproj/MainMenu.xib
+c000000004C4D217300000000000042E5
+t1280123251
+s17125
+
+N/Users/da/Code/WeatherBuddy/main.m
+c000000004C4AB18E0000000000000105
+t1279963534
+s261
+i<Cocoa/Cocoa.h>
+
+N/var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch.pth
+t1280084245
+s8769352
+
+N/var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-dinscesgsqvbuudtrpxbxukuvxvn/WeatherBuddy_Prefix.pch.pth
+t2
+s0
+
+NWeatherBuddy-Info.plist
+c000000004C4C9BF700000000000004F9
+t1280089079
+s1273
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301783239#301783239#0(0"0(0#1#0"8620530720#0"0#
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIDownloadCache.o /Users/da/Code/WeatherBuddy/ASIDownloadCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301777045.980734
+e301777046.110614
+r1
+xCompileC
+xbuild/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIDownloadCache.o
+x/Users/da/Code/WeatherBuddy/ASIDownloadCache.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@54"Compile /Users/da/Code/WeatherBuddy/ASIDownloadCache.m301777045#301777046#0(0"0(0#0#46"/Users/da/Code/WeatherBuddy/ASIDownloadCache.m8611106336#1498"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -include /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch -c /Users/da/Code/WeatherBuddy/ASIDownloadCache.m -o /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIDownloadCache.o0#
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIFormDataRequest.o /Users/da/Code/WeatherBuddy/ASIFormDataRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301777046.053269
+e301777046.201204
+r1
+xCompileC
+xbuild/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIFormDataRequest.o
+x/Users/da/Code/WeatherBuddy/ASIFormDataRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@56"Compile /Users/da/Code/WeatherBuddy/ASIFormDataRequest.m301777046#301777046#0(0"0(0#0#48"/Users/da/Code/WeatherBuddy/ASIFormDataRequest.m8610810912#1502"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -include /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch -c /Users/da/Code/WeatherBuddy/ASIFormDataRequest.m -o /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIFormDataRequest.o0#
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIHTTPRequest.o /Users/da/Code/WeatherBuddy/ASIHTTPRequest.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301777046.110727
+e301777046.925170
+r1
+xCompileC
+xbuild/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIHTTPRequest.o
+x/Users/da/Code/WeatherBuddy/ASIHTTPRequest.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@52"Compile /Users/da/Code/WeatherBuddy/ASIHTTPRequest.m301777046#301777046#0(0"0(0#0#44"/Users/da/Code/WeatherBuddy/ASIHTTPRequest.m8609642624#1494"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -include /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch -c /Users/da/Code/WeatherBuddy/ASIHTTPRequest.m -o /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIHTTPRequest.o0#
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIInputStream.o /Users/da/Code/WeatherBuddy/ASIInputStream.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301777046.201318
+e301777046.288516
+r1
+xCompileC
+xbuild/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIInputStream.o
+x/Users/da/Code/WeatherBuddy/ASIInputStream.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@52"Compile /Users/da/Code/WeatherBuddy/ASIInputStream.m301777046#301777046#0(0"0(0#0#44"/Users/da/Code/WeatherBuddy/ASIInputStream.m8609543968#1494"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -include /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch -c /Users/da/Code/WeatherBuddy/ASIInputStream.m -o /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASIInputStream.o0#
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASINetworkQueue.o /Users/da/Code/WeatherBuddy/ASINetworkQueue.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301777046.288626
+e301777046.416382
+r1
+xCompileC
+xbuild/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASINetworkQueue.o
+x/Users/da/Code/WeatherBuddy/ASINetworkQueue.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@53"Compile /Users/da/Code/WeatherBuddy/ASINetworkQueue.m301777046#301777046#0(0"0(0#0#45"/Users/da/Code/WeatherBuddy/ASINetworkQueue.m8610883456#1496"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -include /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch -c /Users/da/Code/WeatherBuddy/ASINetworkQueue.m -o /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/ASINetworkQueue.o0#
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDImageCache.o /Users/da/Code/WeatherBuddy/Classes/DDImageCache.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301782651.552805
+e301782651.795449
+r1
+xCompileC
+xbuild/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDImageCache.o
+x/Users/da/Code/WeatherBuddy/Classes/DDImageCache.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@58"Compile /Users/da/Code/WeatherBuddy/Classes/DDImageCache.m301782651#301782651#0(0"0(0#0#50"/Users/da/Code/WeatherBuddy/Classes/DDImageCache.m8610397024#1498"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -include /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch -c /Users/da/Code/WeatherBuddy/Classes/DDImageCache.m -o /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDImageCache.o0#
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDImageManipulation.o /Users/da/Code/WeatherBuddy/Classes/DDImageManipulation.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301777995.014352
+e301777995.099268
+r1
+xCompileC
+xbuild/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDImageManipulation.o
+x/Users/da/Code/WeatherBuddy/Classes/DDImageManipulation.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@65"Compile /Users/da/Code/WeatherBuddy/Classes/DDImageManipulation.m301777995#301777995#0(0"0(0#0#57"/Users/da/Code/WeatherBuddy/Classes/DDImageManipulation.m8626695648#1512"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -include /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch -c /Users/da/Code/WeatherBuddy/Classes/DDImageManipulation.m -o /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDImageManipulation.o0#
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDLocationWrapper.o /Users/da/Code/WeatherBuddy/Classes/DDLocationWrapper.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301782651.796030
+e301782651.865498
+r1
+xCompileC
+xbuild/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDLocationWrapper.o
+x/Users/da/Code/WeatherBuddy/Classes/DDLocationWrapper.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@63"Compile /Users/da/Code/WeatherBuddy/Classes/DDLocationWrapper.m301782651#301782651#0(0"0(0#0#55"/Users/da/Code/WeatherBuddy/Classes/DDLocationWrapper.m8604052064#1508"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -include /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch -c /Users/da/Code/WeatherBuddy/Classes/DDLocationWrapper.m -o /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/DDLocationWrapper.o0#
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/PFMoveApplication.o /Users/da/Code/WeatherBuddy/PFMoveApplication.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/WeatherBuddyAppDelegate.o /Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301783239.150567
+e301783239.256232
+r1
+xCompileC
+xbuild/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/WeatherBuddyAppDelegate.o
+x/Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.m:91:15: warning: unused variable 'location' [-Wunused-variable]
+o     NSString *location = [self getTag:weatherXML withTag:@"weatherlocationname"];
+o               ^
+o1 warning generated.
+lSLF07#2@69"Compile /Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.m301783239#301783239#0(246"/Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.m:91:15: warning: unused variable 'location' [-Wunused-variable]     NSString *location = [self getTag:weatherXML withTag:@"weatherlocationname"];               ^1 warning generated.1(22@26"Unused variable 'location'301783239#0#125#0(6@61"/Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.m301783237#91#15#0#0#17"unused variable *0(0#0#61"/Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.m8620474720#1520"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -include /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch -c /Users/da/Code/WeatherBuddy/Classes/WeatherBuddyAppDelegate.m -o /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/WeatherBuddyAppDelegate.o0#
+
+CCompileC build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/main.o /Users/da/Code/WeatherBuddy/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301777045.265830
+e301777045.968077
+r1
+xCompileC
+xbuild/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/main.o
+x/Users/da/Code/WeatherBuddy/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@42"Compile /Users/da/Code/WeatherBuddy/main.m301777045#301777045#0(0"0(0#0#34"/Users/da/Code/WeatherBuddy/main.m8609492832#1474"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -include /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch -c /Users/da/Code/WeatherBuddy/main.m -o /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/da/Code/WeatherBuddy/en.lproj/MainMenu.xib
+s301783186.683034
+e301783186.854431
+r1
+xCompileXIB
+x/Users/da/Code/WeatherBuddy/en.lproj/MainMenu.xib
+lSLF07#2@32"CompileXIB en.lproj/MainMenu.xib301783186#301783186#0(0"0(0#0#49"/Users/da/Code/WeatherBuddy/en.lproj/MainMenu.xib8617524736#326"    cd /Users/da/Code/WeatherBuddy    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj/MainMenu.nib /Users/da/Code/WeatherBuddy/en.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyStringsFile /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+s301777047.553197
+e301777047.632346
+r1
+xCopyStringsFile
+x/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj/InfoPlist.strings
+xen.lproj/InfoPlist.strings
+lSLF07#2@31"Copy en.lproj/InfoPlist.strings301777047#301777047#0(0"0(0#0#54"/Users/da/Code/WeatherBuddy/en.lproj/InfoPlist.strings8611047904#338"    cd /Users/da/Code/WeatherBuddy    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 en.lproj/InfoPlist.strings --outdir /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj0#
+
+CCpResource build/Debug/WeatherBuddy.app/Contents/Resources/WeatherBuddy.icns WeatherBuddy.icns
+s301782652.485026
+e301782652.491945
+r1
+xCpResource
+xbuild/Debug/WeatherBuddy.app/Contents/Resources/WeatherBuddy.icns
+xWeatherBuddy.icns
+lSLF07#2@22"Copy WeatherBuddy.icns301782652#301782652#0(0"0(0#0#45"/Users/da/Code/WeatherBuddy/WeatherBuddy.icns8604257280#305"    cd /Users/da/Code/WeatherBuddy    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/da/Code/WeatherBuddy/WeatherBuddy.icns /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources0#
+
+CCpResource build/Debug/WeatherBuddy.app/Contents/Resources/WeatherBuddy.png WeatherBuddy.png
+s301777047.633341
+e301777047.677164
+r1
+xCpResource
+xbuild/Debug/WeatherBuddy.app/Contents/Resources/WeatherBuddy.png
+xWeatherBuddy.png
+lSLF07#2@21"Copy WeatherBuddy.png301777047#301777047#0(0"0(0#0#44"/Users/da/Code/WeatherBuddy/WeatherBuddy.png8607191968#304"    cd /Users/da/Code/WeatherBuddy    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/da/Code/WeatherBuddy/WeatherBuddy.png /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources0#
+
+CCpResource build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj/Credits.rtf en.lproj/Credits.rtf
+s301777047.632450
+e301777047.672757
+r1
+xCpResource
+xbuild/Debug/WeatherBuddy.app/Contents/Resources/en.lproj/Credits.rtf
+xen.lproj/Credits.rtf
+lSLF07#2@25"Copy en.lproj/Credits.rtf301777047#301777047#0(0"0(0#0#48"/Users/da/Code/WeatherBuddy/en.lproj/Credits.rtf8608947264#317"    cd /Users/da/Code/WeatherBuddy    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/da/Code/WeatherBuddy/en.lproj/Credits.rtf /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Resources/en.lproj0#
+
+CLd /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/MacOS/WeatherBuddy normal x86_64
+s301783239.256331
+e301783239.348666
+r1
+xLd
+x/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/MacOS/WeatherBuddy
+xnormal
+xx86_64
+lSLF07#2@89"Link /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/MacOS/WeatherBuddy301783239#301783239#0(0"0(0#0#0"8619929472#599"    cd /Users/da/Code/WeatherBuddy    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/da/Code/WeatherBuddy/build/Debug -F/Users/da/Code/WeatherBuddy/build/Debug -filelist /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/Objects-normal/x86_64/WeatherBuddy.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework CoreLocation -framework SystemConfiguration -lz.1.2.3 -framework CoreServices -o /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/MacOS/WeatherBuddy0#
+
+CProcessInfoPlistFile /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Info.plist WeatherBuddy-Info.plist
+s301782651.544175
+e301782651.551203
+r1
+xProcessInfoPlistFile
+x/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Info.plist
+xWeatherBuddy-Info.plist
+lSLF07#2@31"Process WeatherBuddy-Info.plist301782651#301782651#0(0"0(0#0#51"/Users/da/Code/WeatherBuddy/WeatherBuddy-Info.plist31525614006435960#292"    cd /Users/da/Code/WeatherBuddy    builtin-infoPlistUtility WeatherBuddy-Info.plist -genpkginfo /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch.pth WeatherBuddy_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s301777044.146326
+e301777045.265713
+r1
+xProcessPCH
+x/var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch.pth
+xWeatherBuddy_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@34"Precompile WeatherBuddy_Prefix.pch301777044#301777045#0(0"0(0#0#51"/Users/da/Code/WeatherBuddy/WeatherBuddy_Prefix.pch8608998368#1386"    cd /Users/da/Code/WeatherBuddy    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-generated-files.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-own-target-headers.hmap -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-all-target-headers.hmap -iquote /Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/WeatherBuddy-project-headers.hmap -F/Users/da/Code/WeatherBuddy/build/Debug -I/Users/da/Code/WeatherBuddy/build/Debug/include -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources/x86_64 -I/Users/da/Code/WeatherBuddy/build/WeatherBuddy.build/Debug/WeatherBuddy.build/DerivedSources -c /Users/da/Code/WeatherBuddy/WeatherBuddy_Prefix.pch -o /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-bouwkgahqsayswfwgiqklkumyxfe/WeatherBuddy_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/+m/+mMiLuhAGXmcpQSW310HTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/WeatherBuddy_Prefix-dinscesgsqvbuudtrpxbxukuvxvn/WeatherBuddy_Prefix.pch.pth WeatherBuddy_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app
+s301783239.349022
+e301783239.352325
+r1
+xTouch
+x/Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app
+lSLF07#2@62"Touch /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app301783239#301783239#0(0"0(0#0#0"8620227552#114"    cd /Users/da/Code/WeatherBuddy    /usr/bin/touch -c /Users/da/Code/WeatherBuddy/build/Debug/WeatherBuddy.app0#
+
