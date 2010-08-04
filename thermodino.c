@@ -1,7 +1,12 @@
 /*
  *  thermodino.c
  *  WeatherBuddy
-
+ *
+ *  Access Module for an (my) arduino thermometer connected
+ *  to a serial port. 
+ *
+ *  The arduino sends us plain text containing the sensor's
+ *  voltage and current room temperature. 
  *
  *  Created by jrk on 26/7/10.
  *  Copyright 2010 flux forge. All rights reserved.
@@ -16,6 +21,8 @@
 #include <memory.h>
 #include <stdlib.h>
 
+//therm_device = posix path to serial port (like "/dev/cu.xxx")
+//returns: temperature in centrigrade
 float td_get_temp (const char *therm_device)
 {
 	int fd = open (therm_device,O_RDONLY);

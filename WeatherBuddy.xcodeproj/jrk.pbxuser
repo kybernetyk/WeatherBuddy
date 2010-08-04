@@ -22,7 +22,7 @@
 					20,
 					834,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -37,14 +37,14 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 301837611;
-			PBXWorkspaceStateSaveDate = 301837611;
+			PBXPerProjectTemplateStateSaveDate = 301840826;
+			PBXWorkspaceStateSaveDate = 301840826;
 		};
 		perUserProjectItems = {
 			035270A411FDAED80047319E /* PBXTextBookmark */ = 035270A411FDAED80047319E /* PBXTextBookmark */;
 			0352715A11FDB8170047319E /* PBXTextBookmark */ = 0352715A11FDB8170047319E /* PBXTextBookmark */;
-			0352715B11FDB8170047319E /* PBXTextBookmark */ = 0352715B11FDB8170047319E /* PBXTextBookmark */;
-			0352715C11FDB8170047319E /* PBXTextBookmark */ = 0352715C11FDB8170047319E /* PBXTextBookmark */;
+			039E064311FDB9C200C46E4C /* PBXTextBookmark */ = 039E064311FDB9C200C46E4C /* PBXTextBookmark */;
+			039E065111FDBD9D00C46E4C /* PBXTextBookmark */ = 039E065111FDBD9D00C46E4C /* PBXTextBookmark */;
 		};
 		sourceControlManager = 0352709A11FDAD2D0047319E /* Source Control */;
 		userBuildSettings = {
@@ -125,9 +125,9 @@
 	};
 	0352709E11FDAD9D0047319E /* thermodino.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1012, 910}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 966}}";
 			sepNavSelRange = "{739, 0}";
-			sepNavVisRange = "{71, 599}";
+			sepNavVisRange = "{41, 630}";
 		};
 	};
 	035270A411FDAED80047319E /* PBXTextBookmark */ = {
@@ -168,24 +168,24 @@
 		vrLen = 1025;
 		vrLoc = 640;
 	};
-	0352715B11FDB8170047319E /* PBXTextBookmark */ = {
+	039E064311FDB9C200C46E4C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 0352709E11FDAD9D0047319E /* thermodino.c */;
-		name = "thermodino.c: 46";
+		name = "thermodino.c: 47";
 		rLen = 0;
 		rLoc = 739;
 		rType = 0;
-		vrLen = 567;
-		vrLoc = 0;
+		vrLen = 630;
+		vrLoc = 41;
 	};
-	0352715C11FDB8170047319E /* PBXTextBookmark */ = {
+	039E065111FDBD9D00C46E4C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 0352709E11FDAD9D0047319E /* thermodino.c */;
-		name = "thermodino.c: 46";
+		name = "thermodino.c: 47";
 		rLen = 0;
 		rLoc = 739;
 		rType = 0;
-		vrLen = 599;
-		vrLoc = 71;
+		vrLen = 630;
+		vrLoc = 41;
 	};
 }
