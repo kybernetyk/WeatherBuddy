@@ -1,0 +1,3 @@
+** Weather Buddy arduino thermometer hack **
+
+This is a little hack to the wonderful Weather Buddy app. Instead of using a online weather service to get the current temperature this version uses an arduino powered thermometer connected over the serial port to get temperature.
